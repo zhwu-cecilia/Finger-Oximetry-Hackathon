@@ -93,8 +93,8 @@ An interactive **Shiny app** lets users enter patient characteristics and receiv
 ---
 
 ### **Example**
-| Input | | |
-|:--|:--|:--|
+| Input | |
+|:--|:--|
 | Tone | E |
 | Sex | Female |
 | Measured SpO₂ | 94% |
