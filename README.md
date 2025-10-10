@@ -16,7 +16,7 @@ $Bias = SpO_2 - SaO_2$
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2320f7a6-3671-44ba-8444-89ac74ec6908" width="648" height="432" />
-  <img src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" width="576" height="432" />
+  <img src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" width="648" height="486" />
 </p>
 
 
@@ -89,8 +89,8 @@ An interactive **Shiny app** lets users enter patient characteristics and receiv
   - Model summary and coefficients
   
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3e30ad8c-42c0-4210-8d28-7c4c534b4cca" width="500" height="333" />
-  <img src="https://github.com/user-attachments/assets/a2baa6e8-deb7-422d-80e9-a7122cb41330" width="450" height="333" />
+  <img src="https://github.com/user-attachments/assets/3e30ad8c-42c0-4210-8d28-7c4c534b4cca" width="648" height="432" />
+  <img src="https://github.com/user-attachments/assets/a2baa6e8-deb7-422d-80e9-a7122cb41330" width="576" height="432" />
 </p>
 ---
 
