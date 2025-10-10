@@ -2,7 +2,7 @@
 
 ### **Project Overview**
 This project quantifies and corrects **bias in pulse oximeter readings** across different **skin tone categories** and **sex**.  
-Using matched *pulse oximeter (SpO₂)* and *blood gas (SaO₂)* data, we developed a statistical model to estimate and correct systematic over- or underestimation of true oxygen saturation.
+Using matched *pulse oximeter (SpO₂)* and *blood gas (SaO₂)* data, we developed a statistical model to estimate and correct systematic over- or underestimation of true oxygen saturation. This regression model is built on data collected from healthy volunteers. Applying this model to patient pulse oximetry data shall consider other confounding factors contributing to altered fingertip perfusion (Reynold's Syndrome, Diabetes Mellitus, other damages) and reduced light permeability (nail painting). 
 
 ---
 
