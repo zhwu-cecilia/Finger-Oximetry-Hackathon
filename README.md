@@ -156,8 +156,6 @@ If you use this model or code, please cite:
 
 > *“Bias-corrected pulse oximetry model using blood gas validation and skin-tone adjustment.”*  
 > UCSF Computational Health Sciences Institute, 2025.
-> 
-> Monk, Ellis. Monk Skin Tone Scale. 2019, skintone.google.
 
 ---
 
