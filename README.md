@@ -10,7 +10,9 @@ Using matched *pulse oximeter (SpO₂)* and *blood gas (SaO₂)* data, we develo
 Pulse oximeters estimate arterial oxygen saturation (SpO₂) using light absorption, but studies show they can be less accurate in individuals with darker skin pigmentation.  
 
 To address this, we used the **Monk Fingernail Tone scale (A–H)** as a standardized measure of skin tone and fitted a model that quantifies the average **bias**:
-The bias is defined as  $$Bias = SpO_2 - SaO_2$$
+The bias is defined as  
+
+$Bias = SpO_2 - SaO_2$
 
 
 <img width="645" height="55" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/2320f7a6-3671-44ba-8444-89ac74ec6908" />
@@ -44,10 +46,11 @@ Figure 1. Monk Skin Tone (MST) Orbs and Swatches
 2. **Merge Datasets**  
    Linked encounters across blood-gas, pulse-oximeter, patient, and encounter tables by `encounter_id` and `patient_id`.
 3. **Compute Bias**
-   $$Bias = SpO_2 - SaO_2$$
+   $Bias = SpO_2 - SaO_2$
    
 5. **Fit Linear Model**
-   $$Bias = \beta_0 + \beta_1(Monk Fingernail Tone) + \beta_2(Sex) + \varepsilon$$
+   $Bias = \beta_0 + \beta_1(Monk Fingernail Tone) + \beta_2(Sex) + \varepsilon$
+   
    - **β₀** – baseline bias (reference tone & sex)  
    - **β₁, β₂** – effects of tone and sex on bias  
    - **ε (epsilon)** – residual variation (measurement noise, unmodeled effects)
