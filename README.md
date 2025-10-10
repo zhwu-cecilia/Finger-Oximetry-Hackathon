@@ -10,11 +10,12 @@ Using matched *pulse oximeter (SpO₂)* and *blood gas (SaO₂)* data, we develo
 Pulse oximeters estimate arterial oxygen saturation (SpO₂) using light absorption, but studies show they can be less accurate in individuals with darker skin pigmentation.  
 
 To address this, we used the **Monk Fingernail Tone scale (A–H)** as a standardized measure of skin tone and fitted a model that quantifies the average **bias**:
-The bias is defined as  
-$\text{Bias} = \text{SpO₂}_{\text{device}} - \text{SaO₂}_{\text{blood gas}}$
+The bias is defined as  $$Bias = SpO_2 - SaO_2$$
+
+
 
 <img width="2580" height="1090" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" />
-
+**Citation**: Monk, Ellis. Monk Skin Tone Scale. 2019, skintone.google.
 
 
 
@@ -39,18 +40,15 @@ $\text{Bias} = \text{SpO₂}_{\text{device}} - \text{SaO₂}_{\text{blood gas}}$
    Only samples recorded with device type 2 were analyzed to maintain consistency.
 2. **Merge Datasets**  
    Linked encounters across blood-gas, pulse-oximeter, patient, and encounter tables by `encounter_id` and `patient_id`.
-3. **Compute Bias**  
-   \[
-   \text{Bias} = \text{SpO₂} - \text{SaO₂}
-\]
-4. **Fit Linear Model**
-   \[
-   \text{Bias} = \beta_0 + \beta_1(\text{Monk Fingernail Tone}) + \beta_2(\text{Sex}) + \varepsilon
-\]
+3. **Compute Bias**
+   $$Bias = SpO_2 - SaO_2$$
+   
+5. **Fit Linear Model**
+   $$Bias = \beta_0 + \beta_1(Monk Fingernail Tone) + \beta_2(Sex) + \varepsilon$$
    - **β₀** – baseline bias (reference tone & sex)  
    - **β₁, β₂** – effects of tone and sex on bias  
    - **ε (epsilon)** – residual variation (measurement noise, unmodeled effects)
-5. **Evaluate Model Fit**  
+7. **Evaluate Model Fit**  
    - Residual and Q–Q plots confirm linear model assumptions.  
    - Bias increases slightly (~1–2%) for darker tones (E–F).  
    - Sex has minimal additional effect after adjusting for tone.
@@ -155,6 +153,8 @@ If you use this model or code, please cite:
 
 > *“Bias-corrected pulse oximetry model using blood gas validation and skin-tone adjustment.”*  
 > UCSF Computational Health Sciences Institute, 2025.
+> 
+> Monk, Ellis. Monk Skin Tone Scale. 2019, skintone.google.
 
 ---
 
