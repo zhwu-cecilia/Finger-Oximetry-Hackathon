@@ -13,8 +13,11 @@ To address this, we used the **Monk Fingernail Tone scale (A–H)** as a standar
 The bias is defined as  $$Bias = SpO_2 - SaO_2$$
 
 
+<img width="645" height="55" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/2320f7a6-3671-44ba-8444-89ac74ec6908" />
+<img width="645" height="272" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" />
 
-<img width="2580" height="1090" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" />
+Figure 1. Monk Skin Tone (MST) Orbs and Swatches 
+
 **Citation**: Monk, Ellis. Monk Skin Tone Scale. 2019, skintone.google.
 
 
