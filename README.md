@@ -1,4 +1,4 @@
-# 🩸 Pulse Oximeter Bias Correction Model (Device Type 2)
+# 🩸 Pulse Oximeter Bias Correction Model (Finger Measurement)
 
 ### **Project Overview**
 This project quantifies and corrects **bias in pulse oximeter readings** across different **skin tone categories** and **sex**.  
@@ -82,7 +82,11 @@ An interactive **Shiny app** lets users enter patient characteristics and receiv
 - Visualization:
   - Predicted bias across tones and sex
   - Model summary and coefficients
-
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3e30ad8c-42c0-4210-8d28-7c4c534b4cca" width="500" height="333" />
+  <img src="https://github.com/user-attachments/assets/a2baa6e8-deb7-422d-80e9-a7122cb41330" width="450" height="333" />
+</p>
 ---
 
 ### **How It Works**
