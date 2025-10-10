@@ -13,8 +13,8 @@ To address this, we used the **Monk Fingernail Tone scale (A–H)** as a standar
 The bias is defined as  
 $\text{Bias} = \text{SpO₂}_{\text{device}} - \text{SaO₂}_{\text{blood gas}}$
 
+<img width="2580" height="1090" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" />
 
-![Complete MST Scale](https://git.ucsf.edu/user-attachments/assets/fb41ae89-b4f3-407b-8e0c-3d4fd3c48988)
 
 
 
