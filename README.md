@@ -14,9 +14,11 @@ The bias is defined as
 
 $Bias = SpO_2 - SaO_2$
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2320f7a6-3671-44ba-8444-89ac74ec6908" width="648" height="432" />
+  <img src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" width="576" height="432" />
+</p>
 
-<img width="645" height="55" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/2320f7a6-3671-44ba-8444-89ac74ec6908" />
-<img width="645" height="272" alt="Complete MST Scale" src="https://github.com/user-attachments/assets/c55742d4-52f4-4690-ba81-fef0ef39901a" />
 
 Figure 1. Monk Skin Tone (MST) Orbs and Swatches 
 
